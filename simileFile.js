@@ -1,14 +1,15 @@
 let firstValue=prompt('Type number 1');
 let secondValue=prompt("Type number 2");
+let semValue;
 
-if (firstValue===secondValue){
+if (semValue=(firstValue===secondValue)){
     alert ('good');
 }
 else if
-   ('firstValue>secondValue');{
+   (semValue=firstValue>secondValue);{
     alert (`is wrong: ${firstValue>secondValue}`);
 }
- if('firstValue<secondValue');{
+ if(semValue=firstValue<secondValue);{
     alert(`correct, ${firstValue<secondValue}`);
 }
  
