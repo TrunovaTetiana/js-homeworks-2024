@@ -6,11 +6,10 @@ if (semValue=(firstValue===secondValue)){
     alert ('good');
 }
 else if
-   (semValue=firstValue>secondValue);{
-    alert (`is wrong: ${firstValue>secondValue}`);
-}
- if(semValue=firstValue<secondValue);{
-    alert(`correct, ${firstValue<secondValue}`);
-}
- 
+   (semValue=firstValue>secondValue){
+     alert("more");
+   }else{
+    alert('less');
+   }
+    
 
