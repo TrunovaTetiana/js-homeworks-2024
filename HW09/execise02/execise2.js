@@ -1,15 +1,12 @@
 window.onload=function(){
 
 let btnEl=document.querySelector('.size');
-btnEl.classList.add('new');
-//btnEl.style.fontSize='100px';
 
-let newFontSize='50px';
+let newFontSize=12;
 
 btnEl.onclick=function(){
-
     newFontSize+=2;
-    
+   this.style.fontSize=`${newFontSize}px`;
 
 }
 

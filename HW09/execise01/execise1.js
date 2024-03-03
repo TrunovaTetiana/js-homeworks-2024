@@ -9,8 +9,8 @@ howBtnEl.onclick=function(){
 let pEl=document.querySelector('.color');
 pEl.innerHTML='Hello';
 pEl.style.color='red';
-pEl.style.width='200px';
-pEl.style.heidth='25px';
+
+
 
 pEl.onclick=function(){
     alert('Hello')
@@ -19,7 +19,7 @@ let hEl=document.querySelector('.text');
 hEl.innerHTML="bay";
 hEl.style.color='green';
 hEl.style.width='200px';
-hEl.style.heidth='25px';
+hEl.style.heigth='25px';
 }
 
 }
