@@ -12,5 +12,6 @@ allDivs.forEach(div=>{
         div.remove();
     }
 
+    
 });
 }
